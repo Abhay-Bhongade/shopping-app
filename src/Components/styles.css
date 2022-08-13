@@ -1,0 +1,270 @@
+.card_style{
+    cursor: pointer;
+    transition: .3s;
+    
+    
+}
+  
+  /* .smalltrash{
+      display: none;
+  } */
+  .place {
+    margin:7px;
+    
+  }
+  
+  .card_style:hover .btnstyle {
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+      display: block;
+     
+      top: 0%;
+    
+      cursor: pointer;
+      z-index: 1;
+     
+  }
+  .card_style:hover .sideicon {
+    display: block;
+     
+      top: 0%;
+    
+      cursor: pointer;
+      z-index: 1;
+  }
+
+  
+  .iteamsdetails{
+      max-width: 800px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+  }
+  .items_img{
+      flex: .4;
+  }
+  .items_img img{
+      width: 20rem;
+      border-radius: 5px;
+  }
+  
+  .details{
+      flex: .5;
+  };
+  
+  /* .rating{
+      background-color: green;
+  } */
+  
+  @media (max-width:772px){
+      .iteamsdetails{
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+     
+  }
+  
+  @media (max-width:450px){
+      .smalltrash{
+          display: block;
+      }
+      .largetrash{
+          display:none;
+      }
+      .emptycart_img{
+          margin-right: 50px;
+          
+      }
+      .smallclose{
+          display: none;
+      }
+  
+      /* individual iteams details */
+     
+      .items_img img{
+          width: 16rem;
+      }
+    
+      
+  }
+
+  .btnstyle {
+    /* background-color: #5f2c3e ; */
+     border: none; 
+     display:none;
+     position:absolute;
+     
+     
+  }
+  /* .btnstyle:hover {
+    background-color:#4d1629 ;
+  } */
+  .dot {
+    height: 30px;
+    width: 30px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: .5rem;
+   
+    
+
+  }
+ .sideicon {
+    display:none
+ }
+
+ .item {
+    margin-top: 2rem;
+    
+ }
+
+ .itemdetail {
+    font-size:20px;
+    padding-right: 4rem;
+    margin-top: 2rem;
+    
+    line-height:unset
+ }
+ .button {
+    /* background-color: #5f2c3e; */
+    border:1px solid #5f2c3e;
+    width:8vw;
+    margin:1rem;
+    color:#FFF;
+ }
+ .btnstyle1 {
+    /* background-color: #5f2c3e; */
+     border: none; 
+     color:#FFF;
+     width:40vw;
+     
+     
+  }
+  
+
+  @media screen and (min-width: 900px)  {
+    
+    .button {
+        /* background-color: #5f2c3e; */
+        /* border:1px solid #5f2c3e; */
+        width:4vw;
+        margin:1rem;
+        color:#FFF;
+        
+     }
+     .btnstyle1 {
+        /* background-color: #5f2c3e; */
+         border: none; 
+         color:#FFF;
+         width:20vw; 
+      }
+      
+      
+  }
+
+  figure.zoom {
+    background-position: 50% 50%;
+    position: relative;
+    margin: 150px auto;
+    border: 5px solid white;
+    box-shadow: -1px 5px 15px black;
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+    cursor: zoom-in;
+  }
+  
+  figure.zoom img:hover {
+    opacity: 0;
+  }
+  
+  figure.zoom img {
+    transition: opacity 0.5s;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .category {
+    display:column;
+    justify-content: space-between;
+    margin: 4rem;
+    margin-bottom: .5rem;
+    margin-top: 4rem;
+  }
+  .catbtn {
+    color:#000;
+    cursor: pointer;
+    font-weight:bold;
+     font-size:15px;
+     font-family: 'Noto Serif', serif;
+  }
+  .catbtn:hover {
+    color: gray
+  }
+  .shown {
+    
+    
+    color:#000;
+
+    font-weight:bold;
+     font-size:20px;
+  }
+
+  @media screen and (min-width: 500px) {
+    .category {
+        display:flex;
+        justify-content: space-between;
+        margin: 4rem;
+        margin-bottom: .5rem;
+        margin-top: 4rem;
+        
+      }
+     
+  }
+
+  .box {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+    border-bottom: 2px solid #000 
+  }
+
+  .fixed {
+    position: sticky;
+    overflow-y:scroll;
+    top: 14%;
+    max-height: 100vh;
+    
+  }
+ .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate 
+ {
+    color: #000;
+ }
+
+ .style_image:hover {
+  
+  transform: scale(1.1)
+ }
+ .filterbtn {
+  display:none;
+ }
+ .sidefilter {
+  display:block;
+ }
+
+ @media screen and (min-width:200px) and (max-width: 765px) {
+  .filterbtn {
+    display:block;
+   }
+   .sidefilter {
+    display:none;
+   }
+   .spacing {
+    margin:0 1rem;
+   }
+ }

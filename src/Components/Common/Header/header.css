@@ -1,0 +1,135 @@
+.searchbox {
+    border:1px solid black;
+    width:10vw;
+    height:5vh;
+    border-radius: 25px;
+    padding:10px;
+    margin-top: 0.5rem;
+}
+.logo {
+    font-size:40px;
+    color:'#000';
+    font-style: italic;
+    margin-left:2rem;
+    font-family: Brush Script MT;
+    /* font-family: 'Noto Serif', serif; */
+}
+.headbtn {
+    color:#000;
+     margin-left:2rem;
+     font-weight:bold;
+      font-size:15px;
+      font-family: 'Noto Serif', serif;
+}
+.headbtn:hover {
+    font-weight: bold;
+}
+
+.animate-charcter
+{
+   
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+     
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.backcolor {
+    background: #d1adcc;
+}
+.css-106c1u2-MuiBadge-badge {
+   background-color: #000 !important;
+   top:8px !important;
+   right:5px !important
+}
+
+.social {
+  width:14rem;
+  height:2.5rem;
+  background-color: #3b5998;
+  border:none;
+  color:#fff;
+  font-weight: 1200px;
+  font-size: 13px;
+
+}
+.social1 {
+  width:14rem;
+  height:2.5rem;
+  background-color: #cf4332;
+  border:none;
+  color:#fff;
+  font-weight: 1200px;
+  font-size: 13px;
+}
+.heading {
+  text-align:center;
+   font-weight:1200px
+}
+.shead {
+  text-align:center;
+   font-size:14px;
+    font-weight:500px
+}
+.btndiv {
+  display:flex;
+   justify-content:space-evenly;
+    width:70%;
+     margin:auto;
+      margin-top:2rem
+}
+.field {
+  width:80%;
+  height:2.5rem;
+  border: .5px solid grey;
+  
+}
+.fhead {
+  font-weight:bold;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+  text-align: left;
+  margin-left: 5rem;
+}
+.inputdiv {
+  
+   margin-bottom:1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputdiv1 {
+  margin-top:0rem;
+   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logBtn {
+  margin-top:2rem;
+  margin-bottom:1rem;
+  display:flex;
+  justify-content: center;
+   
+   
+}

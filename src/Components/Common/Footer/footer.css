@@ -1,0 +1,89 @@
+.fmain {
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+    padding-bottom: .5rem;
+    
+}
+.one {
+    text-align: left;
+    /* margin: 4rem; */
+    /* margin-right:0rem; */
+    padding: 4rem;
+}
+.size {
+    font-size:13px
+}
+.icon {
+    margin:0.2rem;
+    width:25px;
+    height:25px;
+}
+.two {
+    margin-top: 4rem;  
+    text-align: left;
+    cursor: pointer;
+
+}
+.input {
+    color:#FFF;
+    border-radius: 8px;
+    border:0 0 2px 0;
+    background-color: #333;
+    width: 20vw;
+    height:6vh;
+    border-color: #4d1629;
+}
+
+.fbtn {
+    width: 20vw;
+    height:6vh;
+    background:#5f2c3e ;
+    border-radius: 8px;
+    border:none;
+    font-size: 12px;
+    font-weight: bold;
+    color:#FFF;
+    margin-top:2rem;
+   
+    
+  }
+  
+  .fbtn:hover {
+     background:#4d1629;
+  }
+
+  @media screen and (max-width:980px) {
+    .two {
+        margin-top: 4rem;  
+        text-align: center;
+        cursor: pointer;
+    }
+    .input {
+        color:#FFF;
+        border-radius: 8px;
+        border:0 0 2px 0;
+        background-color: #333;
+        width: 30vw;
+        height:6vh;
+        border-color: #4d1629;
+    }
+    
+    .fbtn {
+        width: 30vw;
+        height:6vh;
+        background:#5f2c3e ;
+        border-radius: 8px;
+        border:none;
+        font-size: 12px;
+        font-weight: bold;
+        color:#FFF;
+        margin-top:2rem;
+       
+        
+      }
+      
+      .fbtn:hover {
+         background:#4d1629;
+      }
+  }
